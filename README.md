@@ -71,11 +71,11 @@ Rental trends helped optimize inventory management.
 ## How to Run the Project
 Install required dependencies:
 
-'pip install pandas numpy matplotlib seaborn scikit-learn'
+```pip install pandas numpy matplotlib seaborn scikit-learn```
 
 Run the Jupyter Notebook or Python script to preprocess data and perform clustering:
 
-'python customer_segmentation.py'
+```python customer_segmentation.py```
 
 View and analyze the generated visualizations and insights.
 
