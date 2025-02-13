@@ -75,7 +75,7 @@ Install required dependencies:
 
 Run the Jupyter Notebook or Python script to preprocess data and perform clustering:
 
-```python customer_segmentation.py```
+```python FinalProject__Kel_17.ipynb.py```
 
 View and analyze the generated visualizations and insights.
 
