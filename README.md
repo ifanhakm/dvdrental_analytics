@@ -1,92 +1,65 @@
-# DVD Rental Customer Segmentation
+# DVD Rental Store - Data Analysis
 
-## Project Overview
-This project aims to analyze customer rental patterns in a DVD rental business and segment customers based on their rental behaviors. Using K-Means Clustering, we categorize customers into distinct groups to provide insights into their preferences and improve business decision-making.
+An exploratory data analysis (EDA) project performed on the classic DVD Rental sample database. This project aims to extract actionable business insights from the data by leveraging SQL for complex querying and Python (Pandas, Matplotlib, Seaborn) for data manipulation and visualization.
 
-## Objectives
-Perform exploratory data analysis (EDA) on customer rental data.
+## 📖 About The Project
 
-Apply K-Means Clustering to segment customers based on key rental attributes.
+The primary goal of this analysis is to answer key business questions that could help a DVD rental store improve its operations and marketing strategies. By diving deep into the relational database, this project seeks to understand customer purchasing habits, identify top-performing films and genres, and uncover other valuable business metrics.
 
-Identify customer groups and their characteristics to enhance marketing strategies.
+The analysis is documented step-by-step in the Jupyter Notebook, covering the entire process from data cleaning to final insight presentation.
 
-Provide visualizations and insights to support data-driven decisions.
+## 🛠️ Tech Stack
 
-## Dataset
-The dataset contains information about customers, rental history, and related attributes, including:
+  * **Language:** Python, SQL
+  * **Data Analysis:** Pandas
+  * **Data Visualization:** Matplotlib, Seaborn
+  * **Environment:** Jupyter Notebook
 
-Customer ID: Unique identifier for each customer.
+## 📊 Key Analyses & Insights
 
-Number of Rentals: Total number of DVDs rented.
+This project addresses several key business questions, including:
 
-Rental Frequency: How often a customer rents DVDs.
+  * **Top 10 Customers:** Identifying the top 10 customers based on their total purchase amount, providing a target list for loyalty programs.
+  * **Most Rented Film Genres:** Analyzing which film genres are rented the most, helping to inform inventory and acquisition decisions.
+  * **Payment Distribution:** Visualizing the distribution of transaction amounts to understand typical customer spending.
+  * **And more...** The notebook contains a full breakdown of the data wrangling and exploratory analysis process.
 
-Spending Pattern: Total amount spent on rentals.
+## 🚀 How to Run
 
-Preferred Categories: Genre preferences for DVD rentals.
+To run this project on your local machine, please follow these steps:
 
-## Methodology
-Data Preprocessing
+**1. Clone the repository:**
 
-Handle missing values and outliers.
+```bash
+git clone https://github.com/ifanhakm/nama-repository-anda.git
+cd nama-repository-anda
+```
 
-Normalize numerical features for better clustering results.
+**2. Create a virtual environment (recommended):**
 
-Exploratory Data Analysis (EDA)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
-Visualize rental trends and customer behaviors.
+**3. Install the required libraries:**
 
-Identify patterns in customer interactions with the service.
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
 
-Customer Segmentation using K-Means
+**4. Launch Jupyter Notebook:**
 
-Determine the optimal number of clusters using the Elbow Method and Silhouette Score.
+```bash
+jupyter notebook
+```
 
-Apply K-Means clustering algorithm.
+From the Jupyter interface in your browser, open the `dvdrental_analytics.ipynb` file to view and run the analysis.
 
-Analyze and interpret customer segments.
+## 📁 File Structure
 
-Visualization & Insights
-
-Present findings through plots and dashboards.
-
-Provide recommendations for marketing and customer retention strategies.
-
-## Technologies Used
-Python: Data manipulation and modeling.
-
-Pandas & NumPy: Data preprocessing and analysis.
-
-Matplotlib & Seaborn: Data visualization.
-
-Scikit-Learn: Clustering algorithm implementation.
-
-## Results & Insights
-Customers were segmented into different groups based on their rental behaviors.
-
-High-value customers were identified, allowing targeted marketing efforts.
-
-Rental trends helped optimize inventory management.
-
-## How to Run the Project
-Install required dependencies:
-
-```pip install pandas numpy matplotlib seaborn scikit-learn```
-
-Run the Jupyter Notebook or Python script to preprocess data and perform clustering:
-
-```python FinalProject__Kel_17.ipynb.py```
-
-View and analyze the generated visualizations and insights.
-
-## Conclusion
-This project provides valuable insights into customer behaviors using K-Means Clustering, enabling data-driven decision-making for improving customer engagement and business profitability.
-
-Contact
-For further inquiries or collaboration opportunities, feel free to reach out:
-
-Ifan Hakim
-
-Email: ifanhakm@gmail.com
-
-LinkedIn: www.linkedin.com/in/ifanhakim
+```
+├── dvdrental_analytics.ipynb       # The main Jupyter Notebook containing the analysis
+├── *datasets                       # Datasets
+└── README.md                       # This file
+```
